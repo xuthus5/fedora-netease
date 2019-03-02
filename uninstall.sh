@@ -17,4 +17,3 @@ rm -f /usr/bin/netease-cloud-music
 rm -rf /usr/lib/netease-cloud-music
 rm -f /usr/share/applications/netease-cloud-music.desktop
 rm -f /usr/share/icons/hicolor/scalable/apps/netease-cloud-music.svg
-rm -f /usr/share/applications/
