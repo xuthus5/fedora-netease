@@ -24,7 +24,7 @@ sudo ./install.sh
 ![首页](./preview/index.png)
 ![详细](./preview/detail.png)
 
-若需要卸载，执行 uninstall.sh 脚本。可以干净清除
+若需要卸载，执行 uninstall.sh 脚本，可以干净清除。卸载前，建议先自行修改uninstall.sh的移除依赖项
 
 ```
 sudo ./uninstall.sh
