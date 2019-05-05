@@ -1,6 +1,6 @@
-# Fedora-网易云音乐V1.2.1一键安装脚本
+# Fedora-网易云音乐V1.1.0一键安装脚本
 
-该脚本测试于 Fedora-KDE-30上。其他版本自测，理论通用
+该脚本测试于 Fedora-KDE-29上。其他版本自测，理论通用
 
 ## 如何使用
 
@@ -13,21 +13,16 @@ git clone https://gitee.com/xuthus5/fedora-netease.git
 加权限运行
 
 ```
-cd fedora-netease
+cd fedora-netease/F29
 
 chmod +x *.sh
 sudo ./install.sh
 ```
 
-## 说明
-
-网易云音乐版本升级后,包结构变化较大,我按照原结构,将其安装位置移动至`/opt`目录下。
-
 ## 结果演示
 
 ![首页](./preview/index.png)
 ![详细](./preview/detail.png)
-![登陆页面](./preview/login.png)
 
 若需要卸载，执行 uninstall.sh 脚本，可以干净清除。卸载前，建议先自行修改uninstall.sh的移除依赖项
 
@@ -35,4 +30,4 @@ sudo ./install.sh
 sudo ./uninstall.sh
 ```
 
-说明：如需低版本安装脚本请移步目录`F29`
+说明：使用时出现网络故障的问题，可能是没有登录，请登录。

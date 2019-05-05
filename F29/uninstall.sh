@@ -11,19 +11,15 @@ fi
 #移除被依赖的包
 
 ## 建议移除
-dnf remove qt5-qtx11extras qt5-qtmultimedia libmad libnsl
+dnf remove qt5-qtx11extras qt5-qtmultimedia libmad
 ## 不建议移除
-# dnf remove -y rpmfusion* vlc gstreamer1-libav gstreamer1-plugins-ugly gstreamer1-plugins-bad-free gstreamer1-plugins-bad-freeworld gstreamer1-vaapi
+# dnf remove -y rpmfusion* vlc gstreamer1-libav gstreamer1-plugins-ugly gstreamer1-plugins-bad-free gstreamer1-plugins-bad-freeworld gstreamer1-vaapi  
 
 
 
 ## 删除安装配置
 
-#删除软件包
-rm -rf /opt/netease/netease-cloud-music
-#删除桌面启动项
+rm -f /usr/bin/netease-cloud-music
+rm -rf /usr/lib/netease-cloud-music
 rm -f /usr/share/applications/netease-cloud-music.desktop
-#删除ICON
 rm -f /usr/share/icons/hicolor/scalable/apps/netease-cloud-music.svg
-#删除doc
-rm -rf /usr/share/doc/netease-cloud-music
