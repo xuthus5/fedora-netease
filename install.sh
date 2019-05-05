@@ -29,7 +29,7 @@ Install(){
     # 包安装位置
     cp -r opt/* /opt
     # 剔除安装后的无用文件
-    rm -rf usr/ opt/ netease-cloud-music_1.2.1_amd64_ubuntu_20190428.deb control.tar.gz data.tar.xz debian.binary
+    rm -rf usr/ opt/ netease-cloud-music_1.2.1_amd64_ubuntu_20190428.deb control.tar.xz data.tar.xz debian-binary
     # 初次执行
     exec /opt/netease/netease-cloud-music/netease-cloud-music.bash
     echo "安装结束!"

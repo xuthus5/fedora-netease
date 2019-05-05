@@ -11,9 +11,9 @@ fi
 #移除被依赖的包
 
 ## 建议移除
-dnf remove qt5-qtx11extras qt5-qtmultimedia libmad
+dnf remove libmad
 ## 不建议移除
-# dnf remove -y rpmfusion* vlc gstreamer1-libav gstreamer1-plugins-ugly gstreamer1-plugins-bad-free gstreamer1-plugins-bad-freeworld gstreamer1-vaapi  
+# dnf remove -y rpmfusion* vlc gstreamer1-libav gstreamer1-plugins-ugly gstreamer1-plugins-bad-free gstreamer1-plugins-bad-freeworld gstreamer1-vaapi
 
 
 
