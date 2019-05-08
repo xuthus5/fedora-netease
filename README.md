@@ -2,21 +2,21 @@
 
 该脚本测试于 Fedora-KDE-30上。其他版本自测，理论通用
 
-- [ x ] KDE
-- [ x ] Deepin
-- [ x ] Gnome
+- [x] KDE
+- [x] Deepin
+- [x] Gnome
 
 ## 如何使用
 
 下载仓库
 
-```
+```shell
 git clone https://gitee.com/xuthus5/fedora-netease.git
 ```
 
 加权限运行
 
-```
+```shell
 cd fedora-netease
 
 chmod +x *.sh
@@ -52,7 +52,7 @@ source ~/.bashrc
 
 若需要卸载，执行 uninstall.sh 脚本，可以干净清除。卸载前，建议先自行修改uninstall.sh的移除依赖项
 
-```
+```shell
 sudo ./uninstall.sh
 ```
 
