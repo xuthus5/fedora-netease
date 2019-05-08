@@ -31,9 +31,12 @@ Install(){
     # 剔除安装后的无用文件
     rm -rf usr/ opt/ netease-cloud-music_1.2.1_amd64_ubuntu_20190428.deb control.tar.xz data.tar.xz debian-binary
     # 初次执行
-    exec /opt/netease/netease-cloud-music/netease-cloud-music.bash
-    echo "安装结束!"
+    /opt/netease/netease-cloud-music/netease-cloud-music.bash
 }
 
 Dependence
 Install
+
+echo "安装结束!可以执行以下命令检测是否安装完毕:"
+echo "/opt/netease/netease-cloud-music/netease-cloud-music.bash"
+echo "如果出现网易云音乐界面即安装成功!当然!你也可以直接在菜单栏点击图标以运行"

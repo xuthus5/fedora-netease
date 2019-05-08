@@ -8,16 +8,10 @@ if [ $(id -u) != "0" ]; then
     exit
 fi
 
-#移除被依赖的包
-
-## 建议移除
-dnf remove libmad libnsl
-## 不建议移除
+#移除被依赖的包 不建议移除
 # dnf remove -y rpmfusion* vlc gstreamer1-libav gstreamer1-plugins-ugly gstreamer1-plugins-bad-free gstreamer1-plugins-bad-freeworld gstreamer1-vaapi
 
-
-
-## 删除安装配置
+## 删除安装配置以及软件包
 
 #删除软件包
 rm -rf /opt/netease/netease-cloud-music
