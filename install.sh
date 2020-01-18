@@ -12,7 +12,7 @@ Dependence(){
     echo "检测依赖中......"
     #解决依赖性
     dnf install -y https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-    dnf install -y vlc gstreamer1-libav gstreamer1-plugins-ugly gstreamer1-plugins-bad-free gstreamer1-plugins-bad-freeworld gstreamer1-vaapi libmad qt5-qtx11extras qt5-qtmultimedia libXScrnSaver libnsl
+    dnf install -y vlc gstreamer1-libav gstreamer1-plugins-ugly gstreamer1-plugins-bad-free gstreamer1-plugins-bad-freeworld gstreamer1-vaapi libmad qt5-qtx11extras qt5-qtmultimedia libXScrnSaver libnsl binutils
 }
 
 ## 安装配置
