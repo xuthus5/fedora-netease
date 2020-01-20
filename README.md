@@ -6,6 +6,20 @@
 - [x] Deepin
 - [x] Gnome
 
+**你现在可能不必纠结于如何在fedora上安装网易云音乐了，flathub已经有高可用的包提供，仅仅需要你使用如下命令**
+
+```bash
+# 安装配置flatpak
+sudo dnf install flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+# 安装netease.CloudMusic
+flatpak install flathub com.netease.CloudMusic
+# 运行/点击图标运行
+flatpak run com.netease.CloudMusic
+```
+
+link: [flathub](https://flathub.org/apps/details/com.netease.CloudMusic)
+
 ## 如何使用
 
 下载仓库
